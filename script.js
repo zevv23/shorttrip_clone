@@ -10,7 +10,7 @@ window.addEventListener("resize", resize);
 resize();
 
 const trainImg = new Image();
-trainImg.src = "assets/jeep2.png";
+trainImg.src = "assets/train.png";
 
 const treeImg = new Image();
 treeImg.src = "assets/trees.png";
