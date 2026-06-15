@@ -23,7 +23,9 @@ const points = [];
 for (let x = 0; x < 6000; x += 100) {
     points.push({
         x: x,
-        y: 300 + Math.sin(x / 400) * 120
+        y: 300
+           + Math.sin(x / 900) * 35
+           + Math.sin(x / 250) * 10
     });
 }
 
